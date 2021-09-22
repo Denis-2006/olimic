@@ -1,0 +1,10 @@
+a = list(map(int,input().split()))
+flag = False
+for i in a:
+    if i == sum(a) - i:
+        flag = True
+        print("loh")
+    else:
+        continue
+if flag == False:
+    print("gg")
